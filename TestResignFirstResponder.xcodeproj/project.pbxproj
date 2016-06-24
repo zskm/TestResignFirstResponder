@@ -13,8 +13,7 @@
 		600A1DE51D1CCEF700333673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600A1DE31D1CCEF700333673 /* Main.storyboard */; };
 		600A1DE71D1CCEF700333673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600A1DE61D1CCEF700333673 /* Assets.xcassets */; };
 		600A1DEA1D1CCEF700333673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600A1DE81D1CCEF700333673 /* LaunchScreen.storyboard */; };
-		600A1DF31D1CD3BF00333673 /* UIButton+ResignFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 600A1DF21D1CD3BF00333673 /* UIButton+ResignFirstResponder.m */; };
-		600A1DF61D1CD42B00333673 /* UISwitch+ResignFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 600A1DF51D1CD42B00333673 /* UISwitch+ResignFirstResponder.m */; };
+		600A1DFF1D1CE64C00333673 /* UIControl+ResignFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 600A1DFE1D1CE64C00333673 /* UIControl+ResignFirstResponder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +27,8 @@
 		600A1DE61D1CCEF700333673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		600A1DE91D1CCEF700333673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		600A1DEB1D1CCEF700333673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		600A1DF11D1CD3BF00333673 /* UIButton+ResignFirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ResignFirstResponder.h"; sourceTree = "<group>"; };
-		600A1DF21D1CD3BF00333673 /* UIButton+ResignFirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ResignFirstResponder.m"; sourceTree = "<group>"; };
-		600A1DF41D1CD42B00333673 /* UISwitch+ResignFirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISwitch+ResignFirstResponder.h"; sourceTree = "<group>"; };
-		600A1DF51D1CD42B00333673 /* UISwitch+ResignFirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+ResignFirstResponder.m"; sourceTree = "<group>"; };
+		600A1DFD1D1CE64C00333673 /* UIControl+ResignFirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+ResignFirstResponder.h"; sourceTree = "<group>"; };
+		600A1DFE1D1CE64C00333673 /* UIControl+ResignFirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ResignFirstResponder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,15 +65,13 @@
 				600A1DDE1D1CCEF700333673 /* AppDelegate.m */,
 				600A1DE01D1CCEF700333673 /* ViewController.h */,
 				600A1DE11D1CCEF700333673 /* ViewController.m */,
+				600A1DFD1D1CE64C00333673 /* UIControl+ResignFirstResponder.h */,
+				600A1DFE1D1CE64C00333673 /* UIControl+ResignFirstResponder.m */,
 				600A1DE31D1CCEF700333673 /* Main.storyboard */,
 				600A1DE61D1CCEF700333673 /* Assets.xcassets */,
 				600A1DE81D1CCEF700333673 /* LaunchScreen.storyboard */,
 				600A1DEB1D1CCEF700333673 /* Info.plist */,
 				600A1DDA1D1CCEF700333673 /* Supporting Files */,
-				600A1DF11D1CD3BF00333673 /* UIButton+ResignFirstResponder.h */,
-				600A1DF21D1CD3BF00333673 /* UIButton+ResignFirstResponder.m */,
-				600A1DF41D1CD42B00333673 /* UISwitch+ResignFirstResponder.h */,
-				600A1DF51D1CD42B00333673 /* UISwitch+ResignFirstResponder.m */,
 			);
 			path = TestResignFirstResponder;
 			sourceTree = "<group>";
@@ -160,9 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				600A1DE21D1CCEF700333673 /* ViewController.m in Sources */,
-				600A1DF31D1CD3BF00333673 /* UIButton+ResignFirstResponder.m in Sources */,
 				600A1DDF1D1CCEF700333673 /* AppDelegate.m in Sources */,
-				600A1DF61D1CD42B00333673 /* UISwitch+ResignFirstResponder.m in Sources */,
+				600A1DFF1D1CE64C00333673 /* UIControl+ResignFirstResponder.m in Sources */,
 				600A1DDC1D1CCEF700333673 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +304,7 @@
 				600A1DF01D1CCEF700333673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

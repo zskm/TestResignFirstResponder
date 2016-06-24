@@ -1,5 +1,5 @@
 //
-//  UISwitch+ResignFirstResponder.h
+//  UIControl+ResignFirstResponder.h
 //  TestResignFirstResponder
 //
 //  Created by zskm on 16/6/24.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UISwitch (ResignFirstResponder)
+@interface UIControl (ResignFirstResponder)
 
 @end
